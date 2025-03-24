@@ -1,12 +1,14 @@
 # Compliment Generator 🌟  
 
 ## Project Overview  
-The **Compliment Generator** is a simple yet delightful application designed to brighten someone's day by generating random compliments. Whether you're looking for a quick confidence boost or just want to share positive vibes, this tool provides an endless stream of uplifting compliments!  
+The **Compliment Generator** is a simple yet delightful application designed to brighten someone's day by generating random compliments. 
+Whether you're looking for a quick confidence boost or just want to share positive vibes, this tool provides an endless stream of uplifting compliments!  
 
 ---
 
 ## Project Idea 💡  
-The idea behind the Compliment Generator is to spread positivity in a fun and interactive way. By using technology to craft kind and encouraging words, this project aims to remind users of their unique qualities and uplift their spirits.  
+The idea behind the Compliment Generator is to spread positivity in a fun and interactive way.
+By using technology to craft kind and encouraging words, this project aims to remind users of their unique qualities and uplift their spirits.  
 
 ---
 
