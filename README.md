@@ -34,8 +34,7 @@
 
 ## 🔗 Live Demo
 
-🎯 [Click here to try Affirmo](https://your-live-demo-link.vercel.app)  
-_Replace with your actual deployment link_
+🎯 [Click here to try Affirmo](https://s65-compliment-generator.vercel.app/)
 
 ---
 
