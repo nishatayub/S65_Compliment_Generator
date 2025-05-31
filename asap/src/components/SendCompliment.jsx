@@ -10,16 +10,31 @@ const SendCompliment = () => {
   const [recipient, setRecipient] = useState("");
   
   const handleSubmit = async () => {
+    if (!message || !recipient) {
+      alert("Please fill in all fields");
+      return;
+    }
 
     try {
       const endpoint = "/api/compliment/send-email";
+      console.log(`Sending request to: ${API_URL.BASE_URL}${endpoint}`);
+      
+      // Configure axios with CORS headers
       const response = await axios.post(`${API_URL.BASE_URL}${endpoint}`, {
         message,
         recipient,
+      }, {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        withCredentials: false // Important for CORS
       });
-      alert(response.data.message);
+      
+      alert(response.data.message || "Compliment sent successfully!");
     } catch (error) {
-      alert("Failed to send compliment!", error.message);
+      console.error("Error sending compliment:", error);
+      alert(`Failed to send compliment: ${error.response?.data?.message || error.message || 'Unknown error'}`);
     }
   };
 
@@ -97,7 +112,7 @@ const SendCompliment = () => {
               </div>
               
               <button
-                onClick={() => handleSubmit("email")}
+                onClick={handleSubmit}
                 className="w-full bg-gradient-to-r from-lime-800 to-lime-600 text-white text-xl font-bold py-4 px-6 rounded-xl hover:shadow-xl transition transform hover:-translate-y-1 flex items-center justify-center relative overflow-hidden group"
               >
                 <span className="absolute right-0 w-8 h-full bg-white opacity-10 transform -skew-x-10 transition-transform duration-700 group-hover:translate-x-20"></span>

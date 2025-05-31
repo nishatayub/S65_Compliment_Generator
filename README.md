@@ -50,6 +50,24 @@
 
 ---
 
+## Deployment Links 🚀
+- Frontend Link - https://s65-compliment-generator-aofz.vercel.app/
+- Backend Link - https://s65-compliment-generator.onrender.com
+
+## Deployment Instructions 🚀
+
+### Backend (Render)
+1. Push your changes to your GitHub repository
+2. Render will automatically redeploy from your main/master branch
+3. You can also manually trigger a deployment from the Render dashboard
+4. Monitor the deployment logs for any errors
+
+### Frontend (Vercel)
+1. Push your changes to your GitHub repository
+2. Vercel will automatically redeploy from your main/master branch
+3. You can also manually trigger a deployment from the Vercel dashboard
+4. Verify CORS is working by testing the compliment sending feature
+=======
 ## 🛠️ How It Works
 
 1. Click the **"Generate Compliment"** button.
