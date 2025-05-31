@@ -6,26 +6,6 @@
 
 > **Affirmo** is your go-to app to generate personalized compliments that brighten days and boost confidence. Thoughtfully designed, beautifully built, and powered by positivity.
 
----
-
-<details>
-<summary>📌 Table of Contents</summary>
-
-- [Project Overview](#-project-overview)
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [How It Works](#-how-it-works)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Folder Structure](#-folder-structure)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-</details>
-
----
-
 ## 🧠 Project Overview
 
 **Affirmo** is a React-based application that delivers feel-good, random compliments to users. Whether you’re in need of motivation, reassurance, or a dose of positivity, Affirmo provides kind words to keep you going. It encourages self-love and sharing affirmations with others — one click at a time.
@@ -47,30 +27,6 @@
 - 🌈 **Clean UI** – Beautiful and distraction-free design.
 - 📱 **Responsive** – Works seamlessly across devices.
 - ✨ **Animations** – Subtle interactions that enhance UX.
-
----
-
-## 🛠️ How It Works
-
-1. Click the **"Generate Compliment"** button.
-2. The app randomly selects a compliment.
-3. Enter a name for personalization (optional).
-4. Copy or favorite the compliment.
-5. Repeat and feel good 😊
-
----
-
-## 🖥️ Tech Stack
-
-| Tool         | Purpose                                |
-|--------------|----------------------------------------|
-| **React**    | Frontend UI framework                  |
-| **TailwindCSS** | Styling and layout                    |
-| **JavaScript (ES6)** | Core logic & interactions          |
-| **(Optional) Node.js + Express + MongoDB** | Backend with MERN architecture |
-| **External APIs** | For compliment content (planned)   |
-
----
 
 ## ⚙️ Getting Started
 
