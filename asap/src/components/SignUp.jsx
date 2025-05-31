@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import Nav from './Nav';
 import Footer from './Footer';
+import API_URL from '../config/api';
 
 const Signup = () => {
   const [userData, setUserData] = useState({ name: '', email: '', password: '' });
@@ -17,11 +18,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-
       const response =await axios.post('https://s65-compliment-generator.onrender.com/api/user/add', userData);
-
-      const response = await axios.post('https://s65-compliment-generator.onrender.com/api/user/add', userData);
-
       const data = response.data; 
       alert(data.message || 'Signup successful!');
       

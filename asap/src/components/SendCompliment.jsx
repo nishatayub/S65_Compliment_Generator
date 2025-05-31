@@ -3,6 +3,7 @@ import axios from "axios";
 import Nav from './Nav';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import API_URL from '../config/api';
 
 const SendCompliment = () => {
   const [message, setMessage] = useState("");
@@ -12,7 +13,7 @@ const SendCompliment = () => {
 
     try {
       const endpoint = "/api/compliment/send-email";
-      const response = await axios.post(`https://s65-compliment-generator.onrender.com${endpoint}`, {
+      const response = await axios.post(`${API_URL.BASE_URL}${endpoint}`, {
         message,
         recipient,
       });

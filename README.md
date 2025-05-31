@@ -33,8 +33,55 @@ By using technology to craft kind and encouraging words, this project aims to re
 
 ## Technologies Used 🖥️  
 - **Frontend**: React, Tailwindcss
-- **Backend (Optional)**: MERN
-- **APIs**: Could integrate external compliment APIs for an extended compliment database.  
+- **Backend**: Node.js, Express, MongoDB
+- **Deployment**: Frontend on Vercel/Netlify, Backend on Render
+
+## Running Locally 🏃‍♂️
+
+### Frontend Setup
+1. Navigate to the frontend directory:
+   ```bash
+   cd asap
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   This will start the frontend on http://localhost:5173
+
+### Backend Setup
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a .env file with the following variables:
+   ```
+   PORT=8080
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+4. Start the backend server:
+   ```bash
+   npm start
+   ```
+   Or for development with auto-reload:
+   ```bash
+   npx nodemon index.js
+   ```
+   This will start the backend on http://localhost:8080
+
+## Deployment Guide 🚀
+- The application is configured to automatically use the production backend URL when deployed.
+- For local development, it will connect to your local backend server.
+- No code changes needed between environments!
 
 ---
 
