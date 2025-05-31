@@ -17,7 +17,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.post('http://localhost:8080/api/user/login', userData);
+        const response = await axios.post('https://s65-compliment-generator.onrender.com/api/user/login', userData);
         const data = response.data; 
 
         alert(data.message || 'Login successful!');

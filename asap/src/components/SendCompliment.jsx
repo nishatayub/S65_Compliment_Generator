@@ -12,7 +12,7 @@ const SendCompliment = () => {
 
     try {
       const endpoint = "/api/compliment/send-email";
-      const response = await axios.post(`http://localhost:8080${endpoint}`, {
+      const response = await axios.post(`https://s65-compliment-generator.onrender.com${endpoint}`, {
         message,
         recipient,
       });
