@@ -78,10 +78,23 @@ By using technology to craft kind and encouraging words, this project aims to re
    ```
    This will start the backend on http://localhost:8080
 
-## Deployment Guide 🚀
-- The application is configured to automatically use the production backend URL when deployed.
-- For local development, it will connect to your local backend server.
-- No code changes needed between environments!
+## Deployment Links 🚀
+- Frontend Link - https://s65-compliment-generator-aofz.vercel.app/
+- Backend Link - https://s65-compliment-generator.onrender.com
+
+## Deployment Instructions 🚀
+
+### Backend (Render)
+1. Push your changes to your GitHub repository
+2. Render will automatically redeploy from your main/master branch
+3. You can also manually trigger a deployment from the Render dashboard
+4. Monitor the deployment logs for any errors
+
+### Frontend (Vercel)
+1. Push your changes to your GitHub repository
+2. Vercel will automatically redeploy from your main/master branch
+3. You can also manually trigger a deployment from the Vercel dashboard
+4. Verify CORS is working by testing the compliment sending feature
 
 ---
 
