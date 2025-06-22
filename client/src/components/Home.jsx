@@ -66,132 +66,12 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          
-          {/* Enhanced Feature Cards */}
-          <div className="grid md:grid-cols-2 gap-8 items-stretch mb-20">
-            {/* Left side - Enhanced Stats Card */}
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
-              <div className="relative bg-white backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-                <div className="text-center mb-8">
-                  <div className="w-24 h-24 bg-gradient-to-r from-blue-500 via-purple-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                    <span className="text-white text-3xl font-bold">A</span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Your Journey Starts Here</h3>
-                  <p className="text-gray-600">Join thousands discovering their worth daily</p>
-                </div>
-                
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-4 hover:shadow-md transition-all">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center shadow-md">
-                        <span className="text-white text-lg">💝</span>
-                      </div>
-                      <span className="text-gray-700 font-medium">Compliments Sent</span>
-                    </div>
-                    <span className="text-blue-600 font-bold text-xl">10,000+</span>
-                  </div>
-                  
-                  <div className="flex items-center justify-between bg-gradient-to-r from-teal-50 to-green-50 rounded-xl p-4 hover:shadow-md transition-all">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center shadow-md">
-                        <span className="text-white text-lg">✨</span>
-                      </div>
-                      <span className="text-gray-700 font-medium">Happy Users</span>
-                    </div>
-                    <span className="text-teal-600 font-bold text-xl">5,000+</span>
-                  </div>
-                  
-                  <div className="flex items-center justify-between bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl p-4 hover:shadow-md transition-all">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-gradient-to-r from-orange-400 to-yellow-500 rounded-full flex items-center justify-center shadow-md">
-                        <span className="text-white text-lg">🌟</span>
-                      </div>
-                      <span className="text-gray-700 font-medium">Confidence Built</span>
-                    </div>
-                    <span className="text-orange-600 font-bold text-xl">Daily</span>
-                  </div>
-                  
-                  <div className="flex items-center justify-between bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-4 hover:shadow-md transition-all">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center shadow-md">
-                        <span className="text-white text-lg">💫</span>
-                      </div>
-                      <span className="text-gray-700 font-medium">Success Stories</span>
-                    </div>
-                    <span className="text-purple-600 font-bold text-xl">2,500+</span>
-                  </div>
-                </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -top-2 -right-2 w-6 h-6 bg-yellow-400 rounded-full opacity-80 animate-ping"></div>
-                <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-pink-400 rounded-full opacity-60 animate-pulse" style={{animationDelay: '1s'}}></div>
-              </div>
-            </div>
-            
-            {/* Right side - Enhanced CTA Card */}
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-pink-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
-              <div className="relative bg-white backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 h-full flex flex-col">
-                <div className="text-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                    <span className="text-white text-2xl">🚀</span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                    Spread Positivity & Build Confidence
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Transform your mindset with our AI-powered compliments and affirmations. 
-                    Join a community dedicated to lifting each other up.
-                  </p>
-                </div>
-                
-                <div className="space-y-4 mb-8 flex-grow">
-                  <div className="flex items-center gap-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
-                      <span className="text-white text-sm">✓</span>
-                    </div>
-                    <span className="text-gray-700 font-medium">Personalized affirmations</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-4 bg-gradient-to-r from-teal-50 to-green-50 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-gradient-to-r from-teal-400 to-green-500 rounded-full flex items-center justify-center">
-                      <span className="text-white text-sm">✓</span>
-                    </div>
-                    <span className="text-gray-700 font-medium">Mood-based support</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl p-4">
-                    <div className="w-10 h-10 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full flex items-center justify-center">
-                      <span className="text-white text-sm">✓</span>
-                    </div>
-                    <span className="text-gray-700 font-medium">Share with loved ones</span>
-                  </div>
-                </div>
-                
-                <div className="flex flex-col gap-3 mt-auto">
-                  <Link 
-                    to="/sendcompliment" 
-                    className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-4 rounded-xl font-semibold transition-all hover:scale-105 text-center shadow-lg hover:shadow-xl"
-                  >
-                    START SPREADING JOY ✨
-                  </Link>
-                  <Link 
-                    to="/receivecompliment" 
-                    className="bg-white hover:bg-gray-50 text-gray-700 border-2 border-gray-200 hover:border-purple-300 px-6 py-4 rounded-xl font-semibold transition-all hover:scale-105 text-center shadow-md hover:shadow-lg"
-                  >
-                    Get My Affirmation 💝
-                  </Link>
-                </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -top-2 -left-2 w-4 h-4 bg-blue-400 rounded-full opacity-70 animate-bounce" style={{animationDelay: '0.5s'}}></div>
-                <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-orange-400 rounded-full opacity-60 animate-pulse" style={{animationDelay: '2s'}}></div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Enhanced Feature Grid */}
+        </div>
+      </section>
+
+      {/* Three Feature Cards Section */}
+      <section className="bg-white py-12">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="absolute inset-0 bg-gradient-to-t from-blue-600/80 via-blue-400/40 to-transparent z-10"></div>
@@ -271,7 +151,7 @@ const Home = () => {
               <img 
                 src={p4} 
                 alt="Confidence journey" 
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full h-48 object-cover rounded-lg"
               />
             </div>
           </div>
@@ -303,7 +183,7 @@ const Home = () => {
               <img 
                 src={p8} 
                 alt="Positive mindset" 
-                className="w-full h-80 object-cover"
+                className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
                 <span className="text-white text-sm font-semibold p-4">Positive Mindset</span>
@@ -316,9 +196,9 @@ const Home = () => {
       {/* Confidence Building Section */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="flex flex-col justify-between h-full">
-              <div>
+          <div className="grid md:grid-cols-2 gap-12 items-stretch">
+            <div className="flex flex-col h-full">
+              <div className="flex-grow">
                 <h3 className="text-4xl font-light text-gray-800 mb-2">
                   Confidence Building
                 </h3>
@@ -364,11 +244,41 @@ const Home = () => {
                       </p>
                     </div>
                   </div>
+                  
+                  <div className="flex gap-4">
+                    <div className="bg-blue-100 text-blue-700 font-bold text-lg px-3 py-1 rounded min-w-[3rem] text-center">04</div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-1 text-sm">DAILY INSPIRATION</h4>
+                      <p className="text-gray-600 text-sm">
+                        Get fresh motivational content to fuel your confidence journey.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex gap-4">
+                    <div className="bg-purple-100 text-purple-700 font-bold text-lg px-3 py-1 rounded min-w-[3rem] text-center">05</div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-1 text-sm">PROGRESS TRACKING</h4>
+                      <p className="text-gray-600 text-sm">
+                        Monitor your confidence growth with meaningful insights.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex gap-4">
+                    <div className="bg-pink-100 text-pink-700 font-bold text-lg px-3 py-1 rounded min-w-[3rem] text-center">06</div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-1 text-sm">COMMUNITY SUPPORT</h4>
+                      <p className="text-gray-600 text-sm">
+                        Connect with others on their journey to self-discovery.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               
               {/* Call to Action */}
-              <div className="mt-auto pt-8">
+              <div className="pt-8">
                 <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg border-l-4 border-blue-500">
                   <h4 className="font-bold text-gray-800 mb-2">Ready to Experience This?</h4>
                   <p className="text-gray-600 text-sm mb-4">
@@ -388,7 +298,7 @@ const Home = () => {
               <img 
                 src={p7} 
                 alt="Self-love journey" 
-                className="w-full h-full min-h-[500px] object-cover"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
                 <span className="text-white text-sm font-semibold p-4">Self-Love Journey</span>

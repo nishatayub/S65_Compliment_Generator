@@ -36,47 +36,38 @@ const Login = () => {
     <div className="min-h-screen bg-gray-50">
       <Nav />
       
-      {/* Hero Section with Background */}
-      <div className="bg-gradient-to-br from-blue-400 via-purple-500 to-teal-400 py-20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-6xl font-light text-white leading-tight mb-6">
-            Welcome Back to<br />
-            Your Confidence Journey
-          </h1>
-          <p className="text-blue-100 text-lg max-w-2xl mx-auto">
-            Ready to continue spreading positivity and building your self-worth? 
-            Let&apos;s get you back to your affirmations and compliments! ✨
-          </p>
-        </div>
-      </div>
-      
-      {/* Login Form Section */}
-      <div className="bg-white py-16 -mt-10 relative z-10">
+      {/* Clean Login Form Section */}
+      <div className="bg-white py-12">
         <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-8">
+            <h1 className="text-3xl font-bold text-gray-800 mb-2">Welcome Back</h1>
+            <p className="text-gray-600">Sign in to continue your confidence journey</p>
+          </div>
+          
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image Section */}
             <div className="hidden md:block relative">
               <img 
                 src={p5} 
-                alt="Welcome back to your confidence journey" 
-                className="w-full h-96 object-cover rounded-2xl shadow-xl"
+                alt="Welcome back to Affirmo" 
+                className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent rounded-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl"></div>
               <div className="absolute bottom-6 left-6 text-white">
-                <h3 className="text-xl font-bold mb-2">Welcome Back!</h3>
-                <p className="text-sm text-blue-100">Continue spreading positivity and building confidence</p>
+                <h3 className="text-lg font-semibold mb-2">Welcome Back!</h3>
+                <p className="text-sm text-gray-200">Continue spreading positivity and building confidence</p>
               </div>
             </div>
             
             {/* Form Section */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-orange-500">
-              <div className="text-center mb-8">
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+              <div className="text-center mb-6">
                 <div className="inline-block mb-4">
-                  <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
                     <span className="text-white text-xl font-bold">A</span>
                   </div>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-2">Sign In to Affirmo</h2>
+                <h2 className="text-xl font-semibold text-gray-800 mb-2">Sign In</h2>
                 <p className="text-gray-600 text-sm">Continue your journey of self-love and positivity</p>
               </div>
             
@@ -117,7 +108,7 @@ const Login = () => {
                 type="submit"
                 className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-3 rounded-lg transition-all transform hover:scale-105 shadow-lg"
               >
-                Sign In & Start Affirming
+                Sign In
               </button>
             </form>
 
@@ -129,13 +120,6 @@ const Login = () => {
                 </Link>
               </p>
             </div>
-            </div>
-            
-            {/* Motivational Quote */}
-            <div className="text-center mt-8">
-              <p className="text-gray-500 text-sm italic">
-                &quot;The way you speak to yourself matters. Choose kindness, choose growth, choose Affirmo.&quot; 💙
-              </p>
             </div>
           </div>
         </div>
