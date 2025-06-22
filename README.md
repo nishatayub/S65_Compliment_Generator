@@ -14,7 +14,7 @@
 
 ## 🔗 Live Demo
 
-🎯 [Click here to try Affirmo](https://s65-compliment-generator.vercel.app/)
+🎯 [Click here to try Affirmo](https://affirmo.vercel.app/)
 
 ---
 
