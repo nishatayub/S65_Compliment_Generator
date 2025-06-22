@@ -57,5 +57,5 @@ npm start
 yarn start
 
 ## Deployment Links 🚀
-- Frontend Link - https://s65-compliment-generator-aofz.vercel.app/
+- Frontend Link - https://s65-compliment-generator.vercel.app/
 - Backend Link - https://s65-compliment-generator.onrender.com
