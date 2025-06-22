@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.png'
+import logo from '../assets/favicon'
 
-const NavBar = () => {
+const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
@@ -16,9 +16,9 @@ const NavBar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <img 
-            src={logo}
+            src="" 
             alt="Affirmo Logo" 
-            className="w-8 h-8"
+            className="w-8 h-8 object-contain"
           />
           <div className="flex flex-col">
             <span className="font-bold text-xl text-gray-800">affirmo</span>
@@ -172,4 +172,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Nav;
